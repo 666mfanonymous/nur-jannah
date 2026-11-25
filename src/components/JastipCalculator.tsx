@@ -225,27 +225,27 @@ export const JastipCalculator: React.FC<JastipCalculatorProps> = ({
       SEMAR_NUSANTARA: {
         brand: 'SEMAR_NUSANTARA',
         label: 'Semar Nusantara',
-        img: '/images/official/sn-smg-press-1g.jpg',
+        img: './images/official/sn-smg-press-1g.jpg',
       },
       SEMAR_JAWA: {
         brand: 'SEMAR_JAWA',
         label: 'Semar Jawa',
-        img: '/images/official/tmj-lm-jawa-05g.jpg',
+        img: './images/catalog/semar-jawa-bar.jpg',
       },
       ISMOYO: {
         brand: 'ISMOYO',
         label: 'Ismoyo (J5)',
-        img: '/images/official/j5-cincin-pinzy-10k.jpg',
+        img: './images/official/j5-cincin-pinzy-10k.jpg',
       },
       PERHIASAN: {
         brand: 'SEMAR_NUSANTARA',
         label: 'Perhiasan Resmi',
-        img: '/images/official/sn-cincin-velora-aeratec-17k.jpg',
+        img: './images/official/sn-cincin-velora-aeratec-17k.jpg',
       },
       ANTAM: {
         brand: 'ANTAM',
         label: 'ANTAM LM',
-        img: '/images/official/antam-certieye-1g.jpg',
+        img: './images/official/antam-certieye-1g.jpg',
       },
     };
 

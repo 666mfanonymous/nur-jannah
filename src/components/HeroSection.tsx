@@ -138,9 +138,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="w-full rounded-xl sm:rounded-2xl bg-gradient-to-b from-[#FAF0EC] via-[#FFF9F7] to-[#F4DFD8] border border-[#D4AF37]/45 p-1 sm:p-2 flex items-center justify-center">
                   <div className="w-full aspect-square max-w-[164px] mx-auto rounded-lg sm:rounded-xl overflow-hidden bg-white shadow-[0_6px_16px_rgba(61,44,44,0.09)] ring-1 ring-[#D4AF37]/35">
                     <picture>
-                      <source srcSet="/images/official/sn-smg-press-1g.webp" type="image/webp" />
+                      <source srcSet="./images/official/sn-smg-press-1g.webp" type="image/webp" />
                       <img
-                        src="/images/official/sn-smg-press-1g.jpg"
+                        src="./images/official/sn-smg-press-1g.jpg"
                         alt="Logam Mulia SMG Press 24K Resmi Semar Nusantara"
                         width={640}
                         height={640}
@@ -171,9 +171,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="w-full rounded-xl sm:rounded-2xl bg-gradient-to-b from-[#FAF0EC] via-[#FFF9F7] to-[#F4DFD8] border border-[#D4AF37]/45 p-1 sm:p-2 flex items-center justify-center">
                   <div className="w-full aspect-square max-w-[164px] mx-auto rounded-lg sm:rounded-xl overflow-hidden bg-white shadow-[0_6px_16px_rgba(61,44,44,0.09)] ring-1 ring-[#D4AF37]/35">
                     <picture>
-                      <source srcSet="/images/official/tmj-lm-jawa-5g.webp" type="image/webp" />
+                      <source srcSet="./images/catalog/semar-jawa-bar.webp" type="image/webp" />
                       <img
-                        src="/images/official/tmj-lm-jawa-5g.jpg"
+                        src="./images/catalog/semar-jawa-bar.jpg"
                         alt="Logam Mulia Jawa Gold 24K Resmi Toko Mas Jawa"
                         width={640}
                         height={640}
@@ -204,9 +204,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="w-full rounded-xl sm:rounded-2xl bg-gradient-to-b from-[#FAF0EC] via-[#FFF9F7] to-[#F4DFD8] border border-[#D4AF37]/45 p-1 sm:p-2 flex items-center justify-center">
                   <div className="w-full aspect-square max-w-[164px] mx-auto rounded-lg sm:rounded-xl overflow-hidden bg-[#FAF6F2] shadow-[0_6px_16px_rgba(61,44,44,0.09)] ring-1 ring-[#D4AF37]/35">
                     <picture>
-                      <source srcSet="/images/official/j5-cincin-pinzy-10k.webp" type="image/webp" />
+                      <source srcSet="./images/official/j5-cincin-pinzy-10k.webp" type="image/webp" />
                       <img
-                        src="/images/official/j5-cincin-pinzy-10k.jpg"
+                        src="./images/official/j5-cincin-pinzy-10k.jpg"
                         alt="Perhiasan Emas Asli 10K Resmi Toko Mas J5 Ismoyo"
                         width={640}
                         height={640}

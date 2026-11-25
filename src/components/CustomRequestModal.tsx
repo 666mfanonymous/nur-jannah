@@ -57,7 +57,7 @@ export const CustomRequestModal: React.FC<CustomRequestModalProps> = ({
       taxApplicable: false,
       stock: 1,
       stockStatus: 'Pre-order',
-      image: '/images/official/sn-cincin-velora-aeratec-17k.jpg',
+      image: './images/official/sn-cincin-velora-aeratec-17k.jpg',
       originStore: `Gerai Resmi ${label}`,
       packaging: `Box Perhiasan Resmi ${label}`,
       certificate: `Surat Resmi (Nota Asli) ${label}`,

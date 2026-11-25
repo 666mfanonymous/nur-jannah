@@ -164,12 +164,12 @@ export const LivePriceBoard: React.FC<LivePriceBoardProps> = ({
         stockStatus: 'Ready',
         image:
           brand === 'SEMAR_NUSANTARA'
-            ? '/images/official/sn-smg-press-1g.jpg'
+            ? './images/official/sn-smg-press-1g.jpg'
             : brand === 'SEMAR_JAWA'
-            ? '/images/official/tmj-lm-jawa-05g.jpg'
+            ? './images/catalog/semar-jawa-bar.jpg'
             : brand === 'ISMOYO'
-            ? '/images/official/j5-cincin-pinzy-10k.jpg'
-            : '/images/official/antam-certieye-1g.jpg',
+            ? './images/official/j5-cincin-pinzy-10k.jpg'
+            : './images/official/antam-certieye-1g.jpg',
         originStore: `Gerai Resmi ${BRAND_LABEL_MAP[brand]}`,
         packaging: `Kemasan Press Resmi ${BRAND_LABEL_MAP[brand]}`,
         certificate: `Surat Resmi Asli ${BRAND_LABEL_MAP[brand]}`,

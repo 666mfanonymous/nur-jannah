@@ -267,7 +267,7 @@ export const AuthenticityAndVault: React.FC = () => {
           <div className="lg:col-span-5 rounded-3xl bg-[#FFF9F7] border border-[#E6C7C0] overflow-hidden flex flex-col shadow-[0_14px_38px_rgba(183,110,121,0.1)]">
             <div className="relative h-56 sm:h-60 bg-[#F3DAD3]">
               <img
-                src="/images/vault-packaging.jpg"
+                src="./images/hero-bullion.jpg"
                 alt="Standar Pengemasan Aman dan Berasuransi NJ"
                 loading="lazy"
                 className="w-full h-full object-cover"
