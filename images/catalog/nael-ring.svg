@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+
+  <defs>
+    <!-- Unified NJ Blush Satin + White Marble Studio Backdrop -->
+    <linearGradient id="bgSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6DFDA"/>
+      <stop offset="56%" stop-color="#FBF0EC"/>
+      <stop offset="68%" stop-color="#FFF9F7"/>
+      <stop offset="100%" stop-color="#F8ECE8"/>
+    </linearGradient>
+    <radialGradient id="studioGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.78"/>
+      <stop offset="65%" stop-color="#F9EDEA" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#EFD0C6" stop-opacity="0.18"/>
+    </radialGradient>
+    <!-- Authentic 17K / 10K Metallic Gold Gradients -->
+    <linearGradient id="goldRich" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B8"/>
+      <stop offset="22%" stop-color="#E7C35C"/>
+      <stop offset="48%" stop-color="#C99A2E"/>
+      <stop offset="72%" stop-color="#F6DF8C"/>
+      <stop offset="100%" stop-color="#9A6E18"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6CE"/>
+      <stop offset="30%" stop-color="#DFB852"/>
+      <stop offset="62%" stop-color="#B98824"/>
+      <stop offset="85%" stop-color="#F2D77E"/>
+      <stop offset="100%" stop-color="#8C6214"/>
+    </linearGradient>
+    <linearGradient id="goldVertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4C2"/>
+      <stop offset="35%" stop-color="#D9AE3E"/>
+      <stop offset="70%" stop-color="#A6791B"/>
+      <stop offset="100%" stop-color="#EBD075"/>
+    </linearGradient>
+    <radialGradient id="goldBead" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#FFF9DC"/>
+      <stop offset="28%" stop-color="#F1D274"/>
+      <stop offset="68%" stop-color="#C69426"/>
+      <stop offset="100%" stop-color="#7F5910"/>
+    </radialGradient>
+    <!-- Faceted Diamond / Zircon Gradient -->
+    <linearGradient id="gemWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#F2F6FB"/>
+      <stop offset="65%" stop-color="#DCE4EE"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <!-- Faceted Rose-Pink Morganite Stone Gradient -->
+    <linearGradient id="gemPink" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#FFF0F3"/>
+      <stop offset="30%" stop-color="#F7B7C5"/>
+      <stop offset="65%" stop-color="#DF7C94"/>
+      <stop offset="90%" stop-color="#F5B2C2"/>
+      <stop offset="100%" stop-color="#B8566D"/>
+    </linearGradient>
+    <!-- Blush-Crimson Silk Braided Cord -->
+    <linearGradient id="cordRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B83B4D"/>
+      <stop offset="50%" stop-color="#8A1E30"/>
+      <stop offset="100%" stop-color="#5E101E"/>
+    </linearGradient>
+    <radialGradient id="floorShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7A504B" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#A37A74" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#A37A74" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#6B423D" flood-opacity="0.18"/>
+    </filter>
+    <filter id="sparkleBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+
+  <rect width="600" height="600" fill="url(#bgSky)"/>
+  <rect width="600" height="600" fill="url(#studioGlow)"/>
+  <!-- Marble Surface Horizon & Delicate Veins -->
+  <path d="M0 400 Q300 388 600 400 L600 600 L0 600 Z" fill="#FFF9F7" opacity="0.88"/>
+  <path d="M-20 468 C110 442, 210 510, 360 472 C465 446, 540 492, 620 465" fill="none" stroke="#E8D2CB" stroke-width="2.2" opacity="0.52"/>
+  <path d="M40 548 C180 520, 290 568, 455 524 C525 506, 575 530, 620 520" fill="none" stroke="#DFC3BA" stroke-width="1.4" opacity="0.45"/>
+  <path d="M120 422 C220 434, 340 415, 480 438" fill="none" stroke="#EDD7D0" stroke-width="1.2" opacity="0.5"/>
+  <ellipse cx="300" cy="462" rx="158" ry="26" fill="url(#floorShadow)"/>
+
+
+  <g filter="url(#softShadow)">
+    <!-- Delicate Dual Intertwined Gold Bands -->
+    <ellipse cx="294" cy="322" rx="108" ry="114" fill="none" stroke="url(#goldSoft)" stroke-width="9" transform="rotate(-7 294 322)"/>
+    <ellipse cx="306" cy="328" rx="108" ry="114" fill="none" stroke="url(#goldRich)" stroke-width="10" transform="rotate(7 306 328)"/>
+    <path d="M204 342 C214 414, 256 440, 306 438 C356 436, 396 404, 408 334" fill="none" stroke="#FFF4C2" stroke-width="2.5" opacity="0.72"/>
+    <!-- Dainty Bezel Solitaire Top Node -->
+    <circle cx="300" cy="212" r="22" fill="url(#goldRich)" stroke="#9A6E18" stroke-width="1.6"/>
+    <circle cx="300" cy="212" r="14.5" fill="url(#gemWhite)"/>
+    <polygon points="300,198 310,206 306,220 294,220 290,206" fill="#FFFFFF" opacity="0.8"/>
+    <!-- Tiny Side Gold Beads -->
+    <circle cx="272" cy="218" r="5" fill="url(#goldBead)"/>
+    <circle cx="328" cy="218" r="5" fill="url(#goldBead)"/>
+  </g>
+  
+    <g transform="translate(304,206)">
+      <path d="M0 -15 Q2.1 -2.1 15 0 Q2.1 2.1 0 15 Q-2.1 2.1 -15 0 Q-2.1 -2.1 0 -15 Z" fill="#FFFFFF" opacity="0.95"/>
+      <circle cx="0" cy="0" r="3.5999999999999996" fill="#FFF9DB" filter="url(#sparkleBlur)"/>
+    </g>
+
+</svg>
